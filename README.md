@@ -39,8 +39,8 @@ This analyzer processes text through a strict, 5-phase optimization pipeline:
    python main.py
 
 > **Note:** The `main.py` file contains a built-in demo block with sample documents. 
-> You can modify the `source_doc` and `sneaky_copy_doc` variables inside the code 
-> to test your own text.
+> You can replace or modify the `Source_Document`, `Sneaky_Document` and `Unrelated_Document` files in the main branch 
+> to test with your own text.
 
 ##  Tech Stack & Concepts
 
