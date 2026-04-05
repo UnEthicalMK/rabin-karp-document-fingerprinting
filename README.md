@@ -22,7 +22,7 @@ The normalized text is divided into overlapping substrings (k-grams).
 **Robustness:** A value of $k = 15$ balances precision and flexibility, yielding a **0.0001% false positive rate** while remaining resistant to minor word substitutions (e.g., "the" → "a").
 
 
-### 3. Polynomial Rolling Hash ($O$($N$))
+### 3. Polynomial Rolling Hash $O$($N$)
 Hashes are computed incrementally using a rolling technique, avoiding recomputation for each substring.
 
 $$
