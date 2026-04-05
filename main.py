@@ -41,7 +41,7 @@ def normalize_text(text:str):
 
 #Phase 2 & 3: K-Grams & Rabin-Karp hashing
 
-def generate_rabin_karp_hashes(normalized_text:str,k:int=5):
+def generate_rabin_karp_hashes(normalized_text:str,k:int=12):
 
     """
     Moves a window of size k over the text to compute hash values for 
@@ -137,7 +137,7 @@ def winnow(hashes:list,w:int=4):
 #Execution Part
 
 #Parameters
-k_gram_size=5
+k_gram_size=12
 window_size=4
 
 #Helper Function
